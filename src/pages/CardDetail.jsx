@@ -3,7 +3,7 @@ import { useParams } from "react-router-dom";
 import cardData from "../data/cardData";
 
 function CardDetail() {
-    const { id, title } = useParams();   // 👈 Yaha galti thi
+    const { id, title } = useParams(); 
 
     const selectedCard = cardData.find(
         (item) =>
