@@ -17,7 +17,7 @@ function Card() {
                     {cardData.map((item) => (
                         <Link
                             key={item.id}
-                            to={`/card/${item.title.replaceAll (" ","-")}`}
+                            to={`/card/${item.id}/${item.title.replaceAll(" ", "-")}`}
                             className="bg-white shadow-lg rounded-xl overflow-hidden 
                          hover:scale-105 transition duration-300 block"
                         >
