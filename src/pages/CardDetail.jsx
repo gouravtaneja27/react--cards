@@ -5,7 +5,7 @@ function CardDetail() {
     const { name } = useParams();
 
     const selectedCard = cardData.find(
-        (item) => item.title === name
+        (item) => item.title.replaceAll(" ", "-") === name
     );
 
     return (
