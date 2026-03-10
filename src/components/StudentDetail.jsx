@@ -3,7 +3,7 @@ import { useParams, useNavigate } from "react-router-dom";
 
 const studentsData = [
     { id: 1, name: "Krish", age: 20, course: "BCA" },
-    { id: 2, name: "Rahul", age: 22, course: "BTech" },
+    { id: 2, name: "sourabh", age: 22, course: "BTech" },
     { id: 3, name: "Priya", age: 21, course: "BBA" },
     { id: 4, name: "Karan", age: 23, course: "MBA" },
    
